@@ -1,0 +1,55 @@
+1.print('Hello,World!')
+
+2.#Add Two Numbers
+x=5
+y=8
+sum=x+y
+print(sum)
+ 
+3.#Add two number input by user
+num1=input('First Number: ')
+num2=input('Second Number: ')
+sum = int(num1) + int(num2)
+print('The sum of {0} and {1}
+
+4.#Swap two number
+a=7
+b=3
+t=a
+a=b
+b=t
+print(a,b)
+
+5.#Largest amoung Three 
+num1 = 10
+num2 = 14
+num3 = 12
+if (num1 >= num2) and (num1 >= num3):
+   largest = num1
+elif (num2 >= num1) and (num2 >= num3):
+   largest = num2
+else:
+   largest = num3
+
+print("The largest number between",num1,",",num2,"and",num3,"is",largest)
+
+6.#Make a simlpe Calculator
+x= input('Enter a Variable: ')
+y= input('Enter another Variable')
+
+z= input('Enter What You want to calculate: sum/subtract/multipli/division')
+
+sum=x+y
+sub=x-y
+mul=x*y
+div=x/y
+
+if (z=sum):
+   result=sum
+elif (z=sub):
+   result=sub
+elif (z= mul):
+    result=mul
+else:
+    result=div
+print("Result",result)
